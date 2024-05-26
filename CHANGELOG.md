@@ -1,3 +1,7 @@
+# 17.0.0 (2024-05-26)
+
+This release bumps minimum required versions to Angular `18.0.0`.
+
 # [16.0.0](https://github.com/ng-bootstrap/ng-bootstrap/compare/15.1.2...16.0.0) (2023-11-22)
 
 This release bumps minimum required versions to Angular `17.0.0` and Bootstrap `5.3.2`.

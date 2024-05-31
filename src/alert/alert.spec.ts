@@ -26,8 +26,8 @@ describe('ngb-alert', () => {
 	it('should initialize inputs with default values', () => {
 		const defaultConfig = TestBed.inject(NgbAlertConfig);
 		const alertCmp = TestBed.createComponent(NgbAlert).componentInstance;
-		expect(alertCmp.dismissible).toBe(defaultConfig.dismissible);
-		expect(alertCmp.type).toBe(defaultConfig.type);
+		expect(alertCmp.dismissible()).toBe(defaultConfig.dismissible);
+		expect(alertCmp.type()).toBe(defaultConfig.type);
 	});
 
 	it('should apply those default values to the template', () => {
@@ -163,8 +163,8 @@ describe('ngb-alert', () => {
 			fixture.detectChanges();
 
 			const alert = fixture.componentInstance;
-			expect(alert.dismissible).toBe(config.dismissible);
-			expect(alert.type).toBe(config.type);
+			expect(alert.dismissible()).toBe(config.dismissible);
+			expect(alert.type()).toBe(config.type);
 		});
 	});
 
@@ -174,8 +174,8 @@ describe('ngb-alert', () => {
 		config.type = 'success';
 
 		const alert = TestBed.createComponent(NgbAlert).componentInstance;
-		expect(alert.dismissible).toBe(config.dismissible);
-		expect(alert.type).toBe(config.type);
+		expect(alert.dismissible()).toBe(config.dismissible);
+		expect(alert.type()).toBe(config.type);
 	});
 });
 

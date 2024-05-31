@@ -2,11 +2,10 @@ import {
 	ChangeDetectionStrategy,
 	Component,
 	ElementRef,
-	EventEmitter,
 	inject,
-	Input,
+	input,
 	NgZone,
-	Output,
+	output,
 	ViewEncapsulation,
 } from '@angular/core';
 
@@ -29,13 +28,13 @@ import { ngbAlertFadingTransition } from './alert-transition';
 	encapsulation: ViewEncapsulation.None,
 	host: {
 		role: 'alert',
-		'[class]': '"alert show" + (type ? " alert-" + type : "")',
-		'[class.fade]': 'animation',
-		'[class.alert-dismissible]': 'dismissible',
+		'[class]': '"alert show" + (type() ? " alert-" + type() : "")',
+		'[class.fade]': 'animation()',
+		'[class.alert-dismissible]': 'dismissible()',
 	},
 	template: `
 		<ng-content />
-		@if (dismissible) {
+		@if (dismissible()) {
 			<button
 				type="button"
 				class="btn-close"
@@ -60,7 +59,7 @@ export class NgbAlert {
 	 *
 	 * @since 8.0.0
 	 */
-	@Input() animation = this._config.animation;
+	animation = input(this._config.animation);
 
 	/**
 	 * If `true`, alert can be dismissed by the user.
@@ -68,7 +67,7 @@ export class NgbAlert {
 	 * The close button (×) will be displayed and you can be notified
 	 * of the event with the `(closed)` output.
 	 */
-	@Input() dismissible = this._config.dismissible;
+	dismissible = input(this._config.dismissible);
 
 	/**
 	 * Type of the alert.
@@ -76,14 +75,14 @@ export class NgbAlert {
 	 * Bootstrap provides styles for the following types: `'success'`, `'info'`, `'warning'`, `'danger'`, `'primary'`,
 	 * `'secondary'`, `'light'` and `'dark'`.
 	 */
-	@Input() type = this._config.type;
+	type = input(this._config.type);
 
 	/**
 	 * An event emitted when the close button is clicked. It has no payload and only relevant for dismissible alerts.
 	 *
 	 * @since 8.0.0
 	 */
-	@Output() closed = new EventEmitter<void>();
+	closed = output<void>();
 
 	/**
 	 * Triggers alert closing programmatically (same as clicking on the close button (×)).
@@ -97,7 +96,7 @@ export class NgbAlert {
 	 */
 	close(): Observable<void> {
 		const transition = ngbRunTransition(this._zone, this._elementRef.nativeElement, ngbAlertFadingTransition, {
-			animation: this.animation,
+			animation: this.animation(),
 			runningTransition: 'continue',
 		});
 		transition.subscribe(() => this.closed.emit());

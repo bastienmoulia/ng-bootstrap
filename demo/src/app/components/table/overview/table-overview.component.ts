@@ -7,7 +7,6 @@ import { NgbdOverviewPage } from '../../../shared/overview-page/overview-page.cl
 
 @Component({
 	selector: 'ngbd-table-overview',
-	standalone: true,
 	imports: [NgbAlertModule, RouterLink, NgbdTableOverviewDemo, PageHeaderComponent],
 	changeDetection: ChangeDetectionStrategy.OnPush,
 	templateUrl: './table-overview.component.html',

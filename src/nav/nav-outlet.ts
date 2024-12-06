@@ -46,7 +46,6 @@ export class NgbNavPane {
  */
 @Component({
 	selector: '[ngbNavOutlet]',
-	standalone: true,
 	imports: [NgbNavPane, NgTemplateOutlet],
 	host: {
 		class: 'tab-content',

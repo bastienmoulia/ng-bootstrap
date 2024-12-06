@@ -4,7 +4,6 @@ import { FormsModule } from '@angular/forms';
 
 @Component({
 	selector: 'ngbd-datepicker-disabled',
-	standalone: true,
 	imports: [NgbDatepickerModule, FormsModule],
 	templateUrl: './datepicker-disabled.html',
 })

@@ -837,7 +837,6 @@ describe('ngb-rating', () => {
 
 @Component({
 	selector: 'test-cmp',
-	standalone: true,
 	imports: [NgbRating, FormsModule, ReactiveFormsModule],
 	template: '',
 })

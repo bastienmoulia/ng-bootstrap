@@ -17,7 +17,6 @@ const CONFIG_SUFFIX_LENGTH = 'Config'.length;
  */
 @Component({
 	selector: 'ngbd-api-docs-config',
-	standalone: true,
 	changeDetection: ChangeDetectionStrategy.OnPush,
 	imports: [RouterLink, NgbdApiDocsBadge],
 	templateUrl: './api-docs-config.component.html',

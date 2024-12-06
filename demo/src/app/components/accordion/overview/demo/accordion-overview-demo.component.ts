@@ -3,7 +3,6 @@ import { NgbAccordionDirective, NgbAccordionModule } from '@ng-bootstrap/ng-boot
 
 @Component({
 	selector: 'ngbd-accordion-demo',
-	standalone: true,
 	changeDetection: ChangeDetectionStrategy.OnPush,
 	imports: [NgbAccordionModule, NgbAccordionDirective],
 	template: `

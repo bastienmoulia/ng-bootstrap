@@ -8,7 +8,6 @@ import { PercentPipe } from '@angular/common';
  */
 @Component({
 	selector: 'ngb-progressbar',
-	standalone: true,
 	imports: [PercentPipe],
 	changeDetection: ChangeDetectionStrategy.OnPush,
 	encapsulation: ViewEncapsulation.None,

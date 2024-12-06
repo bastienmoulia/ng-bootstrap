@@ -7,7 +7,6 @@ import { NgbdPageWrapper } from '../../shared/page-wrapper/page-wrapper.componen
 import { NgbAlertModule, NgbCollapseModule } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
-	standalone: true,
 	changeDetection: ChangeDetectionStrategy.OnPush,
 	imports: [PageHeaderComponent, CodeComponent, NgbCollapseModule, NgbAlertModule, NgbdPageWrapper],
 	templateUrl: './getting-started.page.html',

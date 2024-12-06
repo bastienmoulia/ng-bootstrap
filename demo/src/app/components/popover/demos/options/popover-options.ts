@@ -4,7 +4,6 @@ import { Options } from '@popperjs/core';
 
 @Component({
 	selector: 'ngbd-popover-options',
-	standalone: true,
 	imports: [NgbPopoverModule],
 	templateUrl: './popover-options.html',
 })

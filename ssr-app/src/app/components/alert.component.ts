@@ -3,7 +3,6 @@ import { NgbAlertModule } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
 	selector: 'alert-component',
-	standalone: true,
 	imports: [NgbAlertModule],
 	template: `
 		<ngb-alert [dismissible]="false">Sample alert here</ngb-alert>

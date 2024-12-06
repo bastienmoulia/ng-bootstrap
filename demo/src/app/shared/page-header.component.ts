@@ -3,7 +3,6 @@ import { RouterLink } from '@angular/router';
 
 @Component({
 	selector: 'ngbd-page-header',
-	standalone: true,
 	changeDetection: ChangeDetectionStrategy.OnPush,
 	imports: [RouterLink],
 	host: {

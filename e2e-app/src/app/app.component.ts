@@ -5,7 +5,6 @@ import { NavigationComponent } from './navigation.component';
 
 @Component({
 	selector: 'app-root',
-	standalone: true,
 	imports: [NavigationComponent, RouterOutlet],
 	template: `
 		<div class="container-fluid">

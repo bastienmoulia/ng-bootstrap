@@ -3,7 +3,6 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
 	selector: 'app-root',
-	standalone: true,
 	imports: [NgbModule],
 	template: `
 		<div class="container">

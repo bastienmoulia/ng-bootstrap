@@ -67,7 +67,6 @@ const states = [
 ];
 
 @Component({
-	standalone: true,
 	imports: [FormsModule, NgbModule, ReactiveFormsModule],
 	templateUrl: './typeahead-validation.component.html',
 })

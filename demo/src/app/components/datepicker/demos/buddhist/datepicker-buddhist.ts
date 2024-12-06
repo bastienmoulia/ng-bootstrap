@@ -59,7 +59,6 @@ export class NgbDatepickerI18nBuddhist extends NgbDatepickerI18n {
 
 @Component({
 	selector: 'ngbd-datepicker-buddhist',
-	standalone: true,
 	imports: [NgbDatepickerModule, FormsModule, JsonPipe],
 	templateUrl: './datepicker-buddhist.html',
 	providers: [

@@ -1619,7 +1619,6 @@ describe('ngb-timepicker', () => {
 
 @Component({
 	selector: 'test-cmp',
-	standalone: true,
 	imports: [NgbTimepicker, FormsModule, ReactiveFormsModule],
 	template: '',
 })
@@ -1640,7 +1639,6 @@ class TestComponent {
 
 @Component({
 	selector: 'test-cmp-on-push',
-	standalone: true,
 	imports: [NgbTimepicker, FormsModule],
 	template: '',
 	changeDetection: ChangeDetectionStrategy.OnPush,

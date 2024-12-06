@@ -4,7 +4,6 @@ import { RouterLink } from '@angular/router';
 
 @Component({
 	selector: 'ngbd-collapse-navbar',
-	standalone: true,
 	imports: [NgbCollapseModule, RouterLink],
 	templateUrl: './collapse-navbar.html',
 })

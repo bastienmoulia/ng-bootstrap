@@ -3,7 +3,6 @@ import { NgbToastModule } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
 	selector: 'ngbd-toast-prevent-autohide',
-	standalone: true,
 	imports: [NgbToastModule],
 	templateUrl: './toast-prevent-autohide.html',
 })

@@ -27,7 +27,6 @@ export interface ResultTemplateContext {
 @Component({
 	selector: 'ngb-typeahead-window',
 	exportAs: 'ngbTypeaheadWindow',
-	standalone: true,
 	imports: [NgbHighlight, NgTemplateOutlet],
 	encapsulation: ViewEncapsulation.None,
 	host: {

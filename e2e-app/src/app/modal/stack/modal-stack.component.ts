@@ -2,7 +2,6 @@ import { Component, TemplateRef } from '@angular/core';
 import { NgbModal, NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
-	standalone: true,
 	imports: [NgbModule],
 	templateUrl: './modal-stack.component.html',
 })

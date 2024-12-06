@@ -61,7 +61,6 @@ const DEMOS: Demo[] = [
 
 @Component({
 	selector: 'ngbd-datepicker-calendars',
-	standalone: true,
 	imports: [NgbAlertModule, CodeComponent, NgbdWidgetDemoComponent, NgComponentOutlet],
 	template: `
 		<p>

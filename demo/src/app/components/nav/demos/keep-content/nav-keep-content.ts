@@ -3,7 +3,6 @@ import { NgbAlertModule, NgbNavModule } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
 	selector: 'ngbd-nav-keep',
-	standalone: true,
 	imports: [NgbNavModule, NgbAlertModule],
 	templateUrl: './nav-keep-content.html',
 })

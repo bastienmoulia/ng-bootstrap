@@ -3,7 +3,6 @@ import { NgbScrollSpyModule, NgbScrollSpyService } from '@ng-bootstrap/ng-bootst
 
 @Component({
 	selector: 'ngbd-scrollspy-service',
-	standalone: true,
 	imports: [NgbScrollSpyModule],
 	templateUrl: './scrollspy-service.html',
 	providers: [NgbScrollSpyService],

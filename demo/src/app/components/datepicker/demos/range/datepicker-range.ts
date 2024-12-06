@@ -5,7 +5,6 @@ import { JsonPipe } from '@angular/common';
 
 @Component({
 	selector: 'ngbd-datepicker-range',
-	standalone: true,
 	imports: [NgbDatepickerModule, FormsModule, JsonPipe],
 	templateUrl: './datepicker-range.html',
 	styles: `

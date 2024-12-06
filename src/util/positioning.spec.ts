@@ -210,5 +210,9 @@ describe('positioning', () => {
 	});
 });
 
-@Component({ selector: 'test-cmpt', template: `` })
+@Component({
+	selector: 'test-cmpt',
+	template: ``,
+	standalone: false,
+})
 export class TestComponent {}

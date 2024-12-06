@@ -2,7 +2,7 @@ import { ChangeDetectionStrategy, Component, computed, inject, signal, Signal } 
 import { ActivatedRoute, NavigationEnd, Router, RouterLink, RouterOutlet } from '@angular/router';
 import { COMPONENT_DATA, LIB_VERSIONS, MenuItem } from '../../tokens';
 import { SideNavComponent } from '../side-nav/side-nav.component';
-import { AsyncPipe, NgComponentOutlet, TitleCasePipe } from '@angular/common';
+import { NgComponentOutlet, TitleCasePipe } from '@angular/common';
 import {
 	NgbCollapseModule,
 	NgbDropdownModule,
@@ -15,7 +15,6 @@ import { filter, map } from 'rxjs/operators';
 import { NgbdComponentPage } from './component-page.class';
 
 @Component({
-	standalone: true,
 	changeDetection: ChangeDetectionStrategy.OnPush,
 	imports: [
 		SideNavComponent,
@@ -24,7 +23,6 @@ import { NgbdComponentPage } from './component-page.class';
 		NgbCollapseModule,
 		NgbDropdownModule,
 		RouterLink,
-		AsyncPipe,
 		NgComponentOutlet,
 		RouterOutlet,
 		NgbScrollSpyItem,

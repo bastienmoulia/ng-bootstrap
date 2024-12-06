@@ -18,7 +18,6 @@ import { ScrollSpyComponent } from './components/scrollspy.component';
 
 @Component({
 	selector: 'app-root',
-	standalone: true,
 	imports: [
 		AccordionComponent,
 		AlertComponent,

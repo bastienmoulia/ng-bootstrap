@@ -585,7 +585,6 @@ describe('ngb-accordion directive', () => {
 
 	describe('closeOthers', () => {
 		@Component({
-			standalone: true,
 			imports: [NgbAccordionModule],
 			template: `
 				<div ngbAccordion #accordion="ngbAccordion" [closeOthers]="true">
@@ -958,7 +957,6 @@ describe('on push change detection strategy', () => {
 				</div>
 			</div>
 		`,
-		standalone: true,
 		imports: [NgbAccordionModule],
 		changeDetection: ChangeDetectionStrategy.OnPush,
 	})
@@ -985,7 +983,6 @@ describe('on push change detection strategy', () => {
 
 it(`should allow querying from the body template`, () => {
 	@Component({
-		standalone: true,
 		imports: [NgbAccordionModule],
 		template: `
 			<div ngbAccordion>
@@ -1049,7 +1046,6 @@ it('should initialize inputs with provided config', () => {
 if (isBrowserVisible('ngb-accordion-directive animations')) {
 	describe('ngb-accordion-directive animations', () => {
 		@Component({
-			standalone: true,
 			imports: [NgbAccordionModule],
 			template: `
 				<div ngbAccordion (shown)="onShown($event)" (hidden)="onHidden($event)">
@@ -1222,7 +1218,6 @@ if (isBrowserVisible('ngb-accordion-directive animations')) {
 @Component({
 	selector: 'test-cmp',
 	template: '<div ngbAccordion></div>',
-	standalone: true,
 	imports: [NgbAccordionModule],
 })
 class TestComponent {

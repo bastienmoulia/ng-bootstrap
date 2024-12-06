@@ -60,7 +60,6 @@ const states: { name: string }[] = [
 
 @Component({
 	selector: 'ngbd-typeahead-select-on-exact',
-	standalone: true,
 	imports: [NgbTypeaheadModule, FormsModule, JsonPipe],
 	templateUrl: './typeahead-select-on-exact.html',
 	styles: `.form-control { width: 300px; }`,

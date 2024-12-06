@@ -127,7 +127,6 @@ export class NgbDatepickerContent {
  */
 @Component({
 	selector: 'ngb-datepicker-month',
-	standalone: true,
 	imports: [NgTemplateOutlet],
 	host: {
 		role: 'grid',
@@ -212,7 +211,6 @@ export class NgbDatepickerMonth {
 @Component({
 	exportAs: 'ngbDatepicker',
 	selector: 'ngb-datepicker',
-	standalone: true,
 	imports: [NgTemplateOutlet, NgbDatepickerDayView, NgbDatepickerMonth, NgbDatepickerNavigation],
 	changeDetection: ChangeDetectionStrategy.OnPush,
 	encapsulation: ViewEncapsulation.None,

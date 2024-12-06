@@ -5,7 +5,6 @@ import { JsonPipe } from '@angular/common';
 
 @Component({
 	selector: 'ngbd-datepicker-popup',
-	standalone: true,
 	imports: [NgbDatepickerModule, NgbAlertModule, FormsModule, JsonPipe],
 	templateUrl: './datepicker-popup.html',
 })

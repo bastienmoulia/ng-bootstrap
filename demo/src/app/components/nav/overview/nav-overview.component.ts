@@ -10,7 +10,6 @@ import { NgbdOverviewPage } from '../../../shared/overview-page/overview-page.cl
 
 @Component({
 	selector: 'ngbd-nav-overview',
-	standalone: true,
 	imports: [NgbNavModule, NgbAlertModule, CodeComponent, RouterLink, NgbdApiDocsBadge, PageHeaderComponent],
 	templateUrl: './nav-overview.component.html',
 	host: { '[class.overview]': 'true' },

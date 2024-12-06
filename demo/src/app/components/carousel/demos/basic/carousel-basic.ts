@@ -3,7 +3,6 @@ import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
 	selector: 'ngbd-carousel-basic',
-	standalone: true,
 	imports: [NgbCarouselModule],
 	templateUrl: './carousel-basic.html',
 })

@@ -13,7 +13,6 @@ import { COMPONENT_DATA } from '../../tokens';
  */
 @Component({
 	selector: 'ngbd-api-docs-class',
-	standalone: true,
 	changeDetection: ChangeDetectionStrategy.OnPush,
 	imports: [RouterLink, NgbdApiDocsBadge],
 	templateUrl: './api-docs-class.component.html',

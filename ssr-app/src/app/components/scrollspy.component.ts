@@ -3,7 +3,6 @@ import { NgbScrollSpyModule } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
 	selector: 'scrollspy-component',
-	standalone: true,
 	imports: [NgbScrollSpyModule],
 	template: `
 		<div class="row">

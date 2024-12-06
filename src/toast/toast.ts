@@ -44,7 +44,6 @@ export class NgbToastHeader {}
 @Component({
 	selector: 'ngb-toast',
 	exportAs: 'ngbToast',
-	standalone: true,
 	imports: [NgTemplateOutlet],
 	encapsulation: ViewEncapsulation.None,
 	host: {

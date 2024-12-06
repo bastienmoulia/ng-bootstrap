@@ -20,7 +20,6 @@ import { SideNavComponent } from '../side-nav/side-nav.component';
 
 @Component({
 	selector: 'ngbd-page-wrapper',
-	standalone: true,
 	changeDetection: ChangeDetectionStrategy.OnPush,
 	imports: [NgbCollapseModule, NgbDropdownModule, NgbScrollSpyModule, RouterLink, SideNavComponent],
 	templateUrl: './page-wrapper.component.html',

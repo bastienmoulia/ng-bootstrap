@@ -6,7 +6,6 @@ import { NgbdComponentPage } from '../component-wrapper/component-page.class';
 
 @Component({
 	selector: 'ngbd-examples-page',
-	standalone: true,
 	changeDetection: ChangeDetectionStrategy.OnPush,
 	imports: [NgbdWidgetDemoComponent, NgComponentOutlet],
 	template: `

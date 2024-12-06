@@ -5,7 +5,6 @@ import { COMPONENTS, DEPRECATED_COMPONENTS } from '../../components';
 
 @Component({
 	selector: 'ngbd-side-nav',
-	standalone: true,
 	changeDetection: ChangeDetectionStrategy.OnPush,
 	imports: [RouterLink, NgbCollapseModule],
 	templateUrl: './side-nav.component.html',

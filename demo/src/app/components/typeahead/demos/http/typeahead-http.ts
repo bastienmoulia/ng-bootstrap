@@ -32,7 +32,6 @@ export class WikipediaService {
 
 @Component({
 	selector: 'ngbd-typeahead-http',
-	standalone: true,
 	imports: [NgbTypeaheadModule, FormsModule, JsonPipe],
 	templateUrl: './typeahead-http.html',
 	providers: [WikipediaService],

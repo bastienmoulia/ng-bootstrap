@@ -4,7 +4,6 @@ import { ModalDismissReasons, NgbDatepickerModule, NgbModal } from '@ng-bootstra
 
 @Component({
 	selector: 'ngbd-modal-basic',
-	standalone: true,
 	imports: [NgbDatepickerModule],
 	templateUrl: './modal-basic.html',
 })

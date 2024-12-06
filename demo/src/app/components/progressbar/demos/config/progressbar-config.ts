@@ -3,10 +3,9 @@ import { NgbProgressbarConfig, NgbProgressbarModule } from '@ng-bootstrap/ng-boo
 
 @Component({
 	selector: 'ngbd-progressbar-config',
-	standalone: true,
 	imports: [NgbProgressbarModule],
 	templateUrl: './progressbar-config.html',
-	providers: [NgbProgressbarConfig], // add the NgbProgressbarConfig to the component providers
+	providers: [NgbProgressbarConfig],
 })
 export class NgbdProgressbarConfig {
 	constructor(config: NgbProgressbarConfig) {

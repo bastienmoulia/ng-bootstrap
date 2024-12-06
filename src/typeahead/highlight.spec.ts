@@ -202,5 +202,9 @@ describe('ngb-highlight', () => {
 	});
 });
 
-@Component({ selector: 'test-cmp', standalone: true, imports: [NgbHighlight], template: '' })
+@Component({
+	selector: 'test-cmp',
+	imports: [NgbHighlight],
+	template: '',
+})
 class TestComponent {}

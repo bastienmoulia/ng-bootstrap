@@ -4,7 +4,6 @@ import { FormsModule } from '@angular/forms';
 
 @Component({
 	templateUrl: './datepicker-container.component.html',
-	standalone: true,
 	imports: [FormsModule, NgbModule],
 })
 export class DatepickerContainerComponent {

@@ -3,7 +3,6 @@ import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { FormsModule } from '@angular/forms';
 
 @Component({
-	standalone: true,
 	imports: [FormsModule],
 	templateUrl: './modal-focus.component.html',
 })

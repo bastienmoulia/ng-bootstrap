@@ -3,7 +3,6 @@ import { NgbPopoverModule } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
 	selector: 'ngbd-popover-autoclose',
-	standalone: true,
 	imports: [NgbPopoverModule],
 	templateUrl: './popover-autoclose.html',
 })

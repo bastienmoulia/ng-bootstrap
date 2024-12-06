@@ -107,7 +107,6 @@ describe('ngb-collapse', () => {
 if (isBrowserVisible('ngb-collapse animations')) {
 	describe('ngb-collapse animations', () => {
 		@Component({
-			standalone: true,
 			imports: [NgbCollapse],
 			template: `
 				<button (click)="c.toggle()">Collapse!</button>
@@ -267,7 +266,11 @@ if (isBrowserVisible('ngb-collapse animations')) {
 	});
 }
 
-@Component({ selector: 'test-cmp', standalone: true, imports: [NgbCollapse], template: '' })
+@Component({
+	selector: 'test-cmp',
+	imports: [NgbCollapse],
+	template: '',
+})
 class TestComponent {
 	collapsed = false;
 }

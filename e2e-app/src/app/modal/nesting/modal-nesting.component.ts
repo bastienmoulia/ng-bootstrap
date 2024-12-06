@@ -5,7 +5,6 @@ import { map } from 'rxjs/operators';
 import { FormsModule } from '@angular/forms';
 
 @Component({
-	standalone: true,
 	imports: [FormsModule, NgbModule],
 	templateUrl: './modal-nesting.component.html',
 })

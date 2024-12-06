@@ -3,7 +3,6 @@ import { NgbDatepicker, NgbDatepickerModule } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
 	selector: 'ngbd-datepicker-custommonth',
-	standalone: true,
 	imports: [NgbDatepickerModule],
 	templateUrl: './datepicker-custommonth.html',
 	encapsulation: ViewEncapsulation.None,

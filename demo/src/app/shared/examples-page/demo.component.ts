@@ -17,7 +17,6 @@ const TYPES: { [name: string]: string } = {
 
 @Component({
 	selector: 'ngbd-widget-demo',
-	standalone: true,
 	changeDetection: ChangeDetectionStrategy.OnPush,
 	imports: [RouterLink, CodeComponent, NgbNavModule, LowerCasePipe],
 	templateUrl: './demo.component.html',

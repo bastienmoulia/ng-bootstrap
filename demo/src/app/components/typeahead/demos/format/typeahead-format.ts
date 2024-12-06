@@ -69,7 +69,6 @@ const states = [
 
 @Component({
 	selector: 'ngbd-typeahead-format',
-	standalone: true,
 	imports: [NgbTypeaheadModule, FormsModule, JsonPipe],
 	templateUrl: './typeahead-format.html',
 	styles: `.form-control { width: 300px; }`,

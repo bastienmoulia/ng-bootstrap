@@ -6,7 +6,6 @@ import { NgbToastModule } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
 	selector: 'app-toasts',
-	standalone: true,
 	imports: [NgbToastModule, NgTemplateOutlet],
 	template: `
 		@for (toast of toastService.toasts; track toast) {

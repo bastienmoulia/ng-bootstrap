@@ -13,7 +13,6 @@ import { JsonPipe } from '@angular/common';
 
 @Component({
 	selector: 'ngbd-datepicker-hebrew',
-	standalone: true,
 	imports: [NgbDatepickerModule, FormsModule, JsonPipe],
 	templateUrl: './datepicker-hebrew.html',
 	styles: `

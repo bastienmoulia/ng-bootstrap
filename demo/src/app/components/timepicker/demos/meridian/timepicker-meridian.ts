@@ -5,7 +5,6 @@ import { JsonPipe } from '@angular/common';
 
 @Component({
 	selector: 'ngbd-timepicker-meridian',
-	standalone: true,
 	imports: [NgbTimepickerModule, FormsModule, JsonPipe],
 	templateUrl: './timepicker-meridian.html',
 })

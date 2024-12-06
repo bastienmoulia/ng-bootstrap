@@ -71,7 +71,6 @@ const states: State[] = [
 
 @Component({
 	selector: 'ngbd-typeahead-prevent-manual-entry',
-	standalone: true,
 	imports: [NgbTypeaheadModule, FormsModule, JsonPipe],
 	templateUrl: './typeahead-prevent-manual-entry.html',
 	styles: `.form-control { width: 300px; }`,

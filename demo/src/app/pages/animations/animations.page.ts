@@ -7,7 +7,6 @@ import { PageHeaderComponent } from '../../shared/page-header.component';
 import { NgbdPageWrapper } from '../../shared/page-wrapper/page-wrapper.component';
 
 @Component({
-	standalone: true,
 	imports: [CodeComponent, RouterLink, PageHeaderComponent, NgbdPageWrapper],
 	templateUrl: './animations.page.html',
 })

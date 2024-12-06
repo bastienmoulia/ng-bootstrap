@@ -3,7 +3,6 @@ import { NgbProgressbarModule } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
 	selector: 'ngbd-progressbar-stacked',
-	standalone: true,
 	imports: [NgbProgressbarModule],
 	templateUrl: './progressbar-stacked.html',
 })

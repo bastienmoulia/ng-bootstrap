@@ -4,7 +4,6 @@ import { FormsModule } from '@angular/forms';
 
 @Component({
 	selector: 'datepicker-component',
-	standalone: true,
 	imports: [FormsModule, NgbDatepickerModule],
 	template: `
 		<form class="row row-cols-lg-auto">

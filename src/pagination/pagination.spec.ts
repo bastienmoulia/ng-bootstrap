@@ -837,7 +837,6 @@ describe('ngb-pagination', () => {
 
 @Component({
 	selector: 'test-cmp',
-	standalone: true,
 	imports: [NgbPaginationModule],
 	template: '',
 })
@@ -858,7 +857,6 @@ class TestComponent {
 
 @Component({
 	selector: 'test-page-cmp',
-	standalone: true,
 	imports: [NgbPaginationModule],
 	template: `<ngb-pagination
 		[collectionSize]="collectionSize"

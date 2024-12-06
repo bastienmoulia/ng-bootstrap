@@ -12,7 +12,6 @@ import { FormsModule } from '@angular/forms';
 
 @Component({
 	selector: 'ngbd-datepicker-ethiopian',
-	standalone: true,
 	imports: [NgbDatepickerModule, FormsModule, JsonPipe],
 	templateUrl: './datepicker-ethiopian.html',
 	encapsulation: ViewEncapsulation.None,

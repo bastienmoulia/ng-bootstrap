@@ -5,7 +5,6 @@ import { RouterLink } from '@angular/router';
 
 @Component({
 	selector: 'ngbd-scrollspy-items',
-	standalone: true,
 	imports: [NgbScrollSpyModule, FormsModule, RouterLink],
 	templateUrl: './scrollspy-items.html',
 })

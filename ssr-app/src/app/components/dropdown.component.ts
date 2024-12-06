@@ -3,7 +3,6 @@ import { NgbDropdownModule } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
 	selector: 'dropdown-component',
-	standalone: true,
 	imports: [NgbDropdownModule],
 	template: `
 		<div ngbDropdown class="d-inline-block">

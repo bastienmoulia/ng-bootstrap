@@ -895,7 +895,6 @@ describe('tooltip positionTarget', () => {
 if (isBrowserVisible('ngb-tooltip animations')) {
 	describe('ngb-tooltip animations', () => {
 		@Component({
-			standalone: true,
 			imports: [NgbTooltip],
 			template: `<button ngbTooltip="Great tip!" triggers="click" (shown)="shown()" (hidden)="hidden()"></button>`,
 			host: { '[class.ngb-reduce-motion]': 'reduceMotion' },
@@ -1008,7 +1007,11 @@ if (isBrowserVisible('ngb-tooltip animations')) {
 	});
 }
 
-@Component({ selector: 'test-cmpt', standalone: true, imports: [NgbTooltip], template: `` })
+@Component({
+	selector: 'test-cmpt',
+	imports: [NgbTooltip],
+	template: ``,
+})
 export class TestComponent {
 	name: string | null = 'World';
 	animation = false;
@@ -1034,7 +1037,6 @@ export class TestComponent {
 
 @Component({
 	selector: 'test-onpush-cmpt',
-	standalone: true,
 	imports: [NgbTooltip],
 	changeDetection: ChangeDetectionStrategy.OnPush,
 	template: ``,
@@ -1043,7 +1045,6 @@ export class TestOnPushComponent {}
 
 @Component({
 	selector: 'test-hooks',
-	standalone: true,
 	imports: [NgbTooltip],
 	template: `<div ngbTooltip="tooltip"></div>`,
 })

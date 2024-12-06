@@ -6,7 +6,6 @@ import { ToastsContainer } from './toasts-container.component';
 
 @Component({
 	selector: 'ngbd-toast-global',
-	standalone: true,
 	imports: [NgbTooltipModule, ToastsContainer],
 	templateUrl: './toast-global.component.html',
 })

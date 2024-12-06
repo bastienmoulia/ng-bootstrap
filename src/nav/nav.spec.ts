@@ -1281,7 +1281,6 @@ describe('nav', () => {
 if (isBrowserVisible('ngb-nav animations')) {
 	describe('ngb-nav animations', () => {
 		@Component({
-			standalone: true,
 			imports: [NgbNavModule],
 			template: `
 				<ul ngbNav #n="ngbNav" class="nav-tabs" (shown)="onNavShownSpy($event)" (hidden)="onNavHiddenSpy($event)">
@@ -1515,7 +1514,11 @@ if (isBrowserVisible('ngb-nav animations')) {
 	});
 }
 
-@Component({ selector: 'test-cmp', template: '', standalone: true, imports: [NgbNavModule] })
+@Component({
+	selector: 'test-cmp',
+	template: '',
+	imports: [NgbNavModule],
+})
 class TestComponent {
 	activeId;
 	disabled = true;

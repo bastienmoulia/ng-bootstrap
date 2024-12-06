@@ -4,7 +4,6 @@ import { JsonPipe } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 
 @Component({
-	standalone: true,
 	imports: [FormsModule, JsonPipe],
 	templateUrl: './modal-autoclose.component.html',
 	changeDetection: ChangeDetectionStrategy.OnPush,

@@ -10,7 +10,6 @@ import { NgbdOverviewPage } from '../../../shared/overview-page/overview-page.cl
 
 @Component({
 	selector: 'ngbd-pagination-overview',
-	standalone: true,
 	imports: [CodeComponent, NgbAlertModule, NgbdApiDocsBadge, RouterLink, PageHeaderComponent],
 	templateUrl: './pagination-overview.component.html',
 	changeDetection: ChangeDetectionStrategy.OnPush,

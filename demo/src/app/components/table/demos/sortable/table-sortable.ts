@@ -73,7 +73,6 @@ export class NgbdSortableHeader {
 
 @Component({
 	selector: 'ngbd-table-sortable',
-	standalone: true,
 	imports: [DecimalPipe, NgbdSortableHeader],
 	templateUrl: './table-sortable.html',
 })

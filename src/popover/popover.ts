@@ -37,7 +37,6 @@ let nextId = 0;
 
 @Component({
 	selector: 'ngb-popover-window',
-	standalone: true,
 	imports: [NgTemplateOutlet],
 	changeDetection: ChangeDetectionStrategy.OnPush,
 	encapsulation: ViewEncapsulation.None,

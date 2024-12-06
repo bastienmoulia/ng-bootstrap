@@ -3,7 +3,6 @@ import { NgbNavModule } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
 	selector: 'ngbd-nav-dynamic',
-	standalone: true,
 	imports: [NgbNavModule],
 	templateUrl: './nav-dynamic.html',
 	styles: `

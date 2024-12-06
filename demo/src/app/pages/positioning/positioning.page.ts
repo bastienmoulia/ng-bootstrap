@@ -8,7 +8,6 @@ import { PageHeaderComponent } from '../../shared/page-header.component';
 import { NgbTooltipModule } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
-	standalone: true,
 	changeDetection: ChangeDetectionStrategy.OnPush,
 	imports: [CodeComponent, NgbdPageWrapper, RouterLink, NgbdApiDocsBadge, PageHeaderComponent, NgbTooltipModule],
 	templateUrl: './positioning.page.html',

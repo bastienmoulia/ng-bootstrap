@@ -4,7 +4,6 @@ import { NgbRatingModule } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
 	selector: 'ngbd-rating-form',
-	standalone: true,
 	imports: [NgbRatingModule, ReactiveFormsModule],
 	templateUrl: './rating-form.html',
 })

@@ -4,7 +4,6 @@ import { FormsModule } from '@angular/forms';
 
 @Component({
 	selector: 'ngbd-scrollspy-basic',
-	standalone: true,
 	imports: [NgbScrollSpyModule, FormsModule],
 	templateUrl: './scrollspy-basic.html',
 })

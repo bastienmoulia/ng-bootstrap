@@ -10,7 +10,6 @@ import { NgbHighlight, NgbPaginationModule } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
 	selector: 'ngbd-table-complete',
-	standalone: true,
 	imports: [DecimalPipe, FormsModule, AsyncPipe, NgbHighlight, NgbdSortableHeader, NgbPaginationModule],
 	templateUrl: './table-complete.html',
 	providers: [CountryService, DecimalPipe],

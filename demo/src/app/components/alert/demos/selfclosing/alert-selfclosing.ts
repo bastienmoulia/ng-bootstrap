@@ -6,7 +6,6 @@ import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 
 @Component({
 	selector: 'ngbd-alert-selfclosing',
-	standalone: true,
 	imports: [NgbAlertModule],
 	templateUrl: './alert-selfclosing.html',
 })

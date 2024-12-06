@@ -17,7 +17,6 @@ const THEMES: Theme[] = [
 
 @Component({
 	selector: 'ngbd-theme-picker',
-	standalone: true,
 	changeDetection: ChangeDetectionStrategy.OnPush,
 	imports: [NgbDropdownModule],
 	template: `

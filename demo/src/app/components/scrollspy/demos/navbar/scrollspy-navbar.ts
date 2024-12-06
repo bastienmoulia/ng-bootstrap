@@ -3,7 +3,6 @@ import { NgbDropdownModule, NgbScrollSpyModule } from '@ng-bootstrap/ng-bootstra
 
 @Component({
 	selector: 'ngbd-scrollspy-navbar',
-	standalone: true,
 	imports: [NgbScrollSpyModule, NgbDropdownModule],
 	templateUrl: './scrollspy-navbar.html',
 })

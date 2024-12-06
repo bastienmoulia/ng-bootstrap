@@ -10,7 +10,6 @@ import { DatePipe } from '@angular/common';
 
 @Component({
 	selector: 'ngbd-datepicker-demo-overview',
-	standalone: true,
 	imports: [NgbTooltipModule, NgbDatepickerModule, DatePipe],
 	changeDetection: ChangeDetectionStrategy.OnPush,
 	template: `

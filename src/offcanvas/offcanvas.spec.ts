@@ -942,7 +942,6 @@ export class WithSkipTabindexFirstFocusableOffcanvasCmpt {}
 
 @Component({
 	selector: 'test-cmpt',
-	standalone: true,
 	imports: [DestroyableCmpt],
 	template: `
 		<div id="testContainer"></div>

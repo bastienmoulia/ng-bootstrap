@@ -39,7 +39,6 @@ export interface StarTemplateContext {
  */
 @Component({
 	selector: 'ngb-rating',
-	standalone: true,
 	imports: [NgTemplateOutlet],
 	changeDetection: ChangeDetectionStrategy.OnPush,
 	encapsulation: ViewEncapsulation.None,

@@ -3,7 +3,6 @@ import { NgbAccordionModule } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
 	selector: 'accordion-component',
-	standalone: true,
 	imports: [NgbAccordionModule],
 	template: `
 		<style>

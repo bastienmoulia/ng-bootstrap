@@ -63,7 +63,6 @@ const statesWithFlags: { name: string; flag: string }[] = [
 
 @Component({
 	selector: 'ngbd-typeahead-template',
-	standalone: true,
 	imports: [NgbTypeaheadModule, FormsModule, JsonPipe],
 	templateUrl: './typeahead-template.html',
 	styles: `.form-control { width: 300px; }`,

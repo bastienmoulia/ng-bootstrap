@@ -5,7 +5,6 @@ import { JsonPipe } from '@angular/common';
 
 @Component({
 	selector: 'ngbd-timepicker-steps',
-	standalone: true,
 	imports: [NgbTimepickerModule, FormsModule, JsonPipe],
 	templateUrl: './timepicker-steps.html',
 })

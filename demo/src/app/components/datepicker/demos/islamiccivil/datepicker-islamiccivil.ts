@@ -46,7 +46,6 @@ export class IslamicI18n extends NgbDatepickerI18n {
 
 @Component({
 	selector: 'ngbd-datepicker-islamiccivil',
-	standalone: true,
 	imports: [NgbDatepickerModule, FormsModule, JsonPipe],
 	templateUrl: './datepicker-islamiccivil.html',
 	providers: [

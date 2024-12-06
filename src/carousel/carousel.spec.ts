@@ -942,7 +942,6 @@ describe('ngb-carousel', () => {
 if (isBrowserVisible('ngb-carousel animations')) {
 	describe('ngb-carousel animations', () => {
 		@Component({
-			standalone: true,
 			imports: [NgbCarousel, NgbSlide],
 			template: `
 				<ngb-carousel (slid)="onSlid($event)" [interval]="-1">
@@ -1130,7 +1129,6 @@ if (isBrowserVisible('ngb-carousel animations')) {
 
 @Component({
 	selector: 'test-cmp-on-push',
-	standalone: true,
 	imports: [NgbCarousel, NgbSlide],
 	changeDetection: ChangeDetectionStrategy.OnPush,
 	template: `
@@ -1144,7 +1142,6 @@ class TestComponentOnPush {}
 
 @Component({
 	selector: 'test-cmp',
-	standalone: true,
 	imports: [NgbCarousel, NgbSlide, TestComponentOnPush],
 	template: '',
 })

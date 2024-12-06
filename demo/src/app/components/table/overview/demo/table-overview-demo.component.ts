@@ -10,7 +10,6 @@ interface Country {
 
 @Component({
 	selector: 'ngbd-table-overview-demo',
-	standalone: true,
 	imports: [DecimalPipe],
 	template: `
 		<table class="table table-striped">

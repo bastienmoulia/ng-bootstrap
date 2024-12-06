@@ -3,7 +3,6 @@ import { FormsModule } from '@angular/forms';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
-	standalone: true,
 	imports: [NgbModule, FormsModule],
 	templateUrl: './timepicker-filter.component.html',
 })

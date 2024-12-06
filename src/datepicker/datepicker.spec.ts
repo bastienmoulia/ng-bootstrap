@@ -1332,7 +1332,6 @@ describe('ngb-datepicker', () => {
 
 @Component({
 	selector: 'test-cmp',
-	standalone: true,
 	imports: [NgbDatepickerModule, FormsModule, ReactiveFormsModule],
 	template: '',
 })

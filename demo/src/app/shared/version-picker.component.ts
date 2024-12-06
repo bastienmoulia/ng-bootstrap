@@ -13,7 +13,6 @@ interface Version {
 
 @Component({
 	selector: 'ngbd-version-picker',
-	standalone: true,
 	changeDetection: ChangeDetectionStrategy.OnPush,
 	imports: [AsyncPipe, NgbDropdownModule],
 	template: `

@@ -53,7 +53,6 @@ function search(text: string, pipe: PipeTransform): Country[] {
 
 @Component({
 	selector: 'ngbd-table-filtering',
-	standalone: true,
 	imports: [DecimalPipe, AsyncPipe, ReactiveFormsModule, NgbHighlight],
 	templateUrl: './table-filtering.html',
 	providers: [DecimalPipe],

@@ -9,7 +9,6 @@ import { NgbdOverviewPage } from '../../../shared/overview-page/overview-page.cl
 
 @Component({
 	selector: 'ngbd-toast-overview',
-	standalone: true,
 	imports: [NgbAlertModule, NgbNavModule, RouterLink, CodeComponent, PageHeaderComponent],
 	templateUrl: './toast-overview.component.html',
 	changeDetection: ChangeDetectionStrategy.OnPush,

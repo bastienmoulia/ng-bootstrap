@@ -1232,7 +1232,6 @@ class NgbDateNativeAdapter extends NgbDateAdapter<Date> {
 
 @Component({
 	selector: 'test-native-cmp',
-	standalone: true,
 	imports: [NgbDatepickerModule, FormsModule],
 	template: '',
 })
@@ -1242,7 +1241,6 @@ class TestNativeComponent {
 
 @Component({
 	selector: 'test-cmp',
-	standalone: true,
 	imports: [NgbDatepickerModule, FormsModule],
 	template: '',
 })

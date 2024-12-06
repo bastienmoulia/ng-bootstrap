@@ -39,7 +39,6 @@ function toMenuItems(names: string[]): MenuItem[] {
 
 @Component({
 	selector: 'ngbd-api-page',
-	standalone: true,
 	changeDetection: ChangeDetectionStrategy.OnPush,
 	imports: [NgbdApiDocs, NgbdApiDocsClass, NgbdApiDocsConfig],
 	template: `

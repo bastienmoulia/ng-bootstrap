@@ -30,7 +30,6 @@ export class NgbDatepickerI18nPersian extends NgbDatepickerI18n {
 
 @Component({
 	selector: 'ngbd-datepicker-jalali',
-	standalone: true,
 	imports: [NgbDatepickerModule, FormsModule, JsonPipe],
 	templateUrl: './datepicker-jalali.html',
 	providers: [

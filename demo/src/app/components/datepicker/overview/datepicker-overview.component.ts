@@ -9,7 +9,6 @@ import { NgbdOverviewPage } from '../../../shared/overview-page/overview-page.cl
 
 @Component({
 	selector: 'ngbd-datepicker-overview',
-	standalone: true,
 	changeDetection: ChangeDetectionStrategy.OnPush,
 	imports: [CodeComponent, RouterLink, NgbAlertModule, NgbdDatepickerOverviewDemoComponent, PageHeaderComponent],
 	templateUrl: './datepicker-overview.component.html',

@@ -4,7 +4,6 @@ import { NgbDatepickerModule, NgbOffcanvas, OffcanvasDismissReasons } from '@ng-
 
 @Component({
 	selector: 'ngbd-offcanvas-basic',
-	standalone: true,
 	imports: [NgbDatepickerModule],
 	templateUrl: './offcanvas-basic.html',
 })

@@ -74,7 +74,6 @@ describe('ngbDatepickerDayView', () => {
 
 @Component({
 	selector: 'test-cmp',
-	standalone: true,
 	imports: [NgbDatepickerDayView],
 	template:
 		'<div ngbDatepickerDayView [date]="date" [currentMonth]="currentMonth" [selected]="selected" [disabled]="disabled"></div>',

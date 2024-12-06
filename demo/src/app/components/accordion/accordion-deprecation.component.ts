@@ -3,7 +3,6 @@ import { NgbAlert } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
 	selector: 'ngbd-acccordion-deprecation',
-	standalone: true,
 	changeDetection: ChangeDetectionStrategy.OnPush,
 	imports: [NgbAlert],
 	template: `

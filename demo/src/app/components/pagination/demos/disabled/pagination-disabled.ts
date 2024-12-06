@@ -3,7 +3,6 @@ import { NgbPaginationModule } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
 	selector: 'ngbd-pagination-disabled',
-	standalone: true,
 	imports: [NgbPaginationModule],
 	templateUrl: './pagination-disabled.html',
 })

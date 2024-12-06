@@ -59,10 +59,8 @@ export class CustomDateParserFormatter extends NgbDateParserFormatter {
 
 @Component({
 	selector: 'ngbd-datepicker-adapter',
-	standalone: true,
 	imports: [NgbDatepickerModule, FormsModule, JsonPipe],
 	templateUrl: './datepicker-adapter.html',
-
 	// NOTE: For this example we are only providing current component, but probably
 	// NOTE: you will want to provide your main App Module
 	providers: [

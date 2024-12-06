@@ -4,7 +4,6 @@ import { DatePipe } from '@angular/common';
 
 @Component({
 	selector: 'ngbd-popover-visibility',
-	standalone: true,
 	imports: [NgbPopoverModule, DatePipe],
 	templateUrl: './popover-visibility.html',
 })

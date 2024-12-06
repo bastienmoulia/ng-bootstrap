@@ -481,7 +481,6 @@ if (isBrowserVisible('ScrollSpy directives')) {
 }
 
 @Component({
-	standalone: true,
 	imports: [NgbScrollSpyModule, AsyncPipe],
 	template: ``,
 })

@@ -3,7 +3,6 @@ import { NgbNavModule } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
 	selector: 'nav-component',
-	standalone: true,
 	imports: [NgbNavModule],
 	template: `
 		<ul ngbNav #nav="ngbNav" class="nav-tabs">

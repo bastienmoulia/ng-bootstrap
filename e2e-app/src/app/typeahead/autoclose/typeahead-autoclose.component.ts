@@ -7,7 +7,6 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 const items = ['one', 'two', 'three'];
 
 @Component({
-	standalone: true,
 	imports: [FormsModule, NgbModule],
 	templateUrl: './typeahead-autoclose.component.html',
 	changeDetection: ChangeDetectionStrategy.OnPush,

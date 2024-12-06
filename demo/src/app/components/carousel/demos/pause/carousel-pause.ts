@@ -4,7 +4,6 @@ import { FormsModule } from '@angular/forms';
 
 @Component({
 	selector: 'ngbd-carousel-pause',
-	standalone: true,
 	imports: [NgbCarouselModule, FormsModule],
 	templateUrl: './carousel-pause.html',
 })

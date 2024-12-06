@@ -3,7 +3,6 @@ import { NgbRatingModule } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
 	selector: 'ngbd-rating-template',
-	standalone: true,
 	imports: [NgbRatingModule],
 	templateUrl: './rating-template.html',
 	styles: `

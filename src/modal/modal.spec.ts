@@ -1374,7 +1374,10 @@ describe('ngb-modal', () => {
 	}
 
 	describe('Lazy loading', () => {
-		@Component({ template: '<router-outlet />' })
+		@Component({
+			template: '<router-outlet />',
+			standalone: false,
+		})
 		class AppComponent {}
 
 		beforeEach(() => {
@@ -1471,7 +1474,6 @@ export class WithSkipTabindexFirstFocusableModalCmpt {}
 
 @Component({
 	selector: 'test-cmpt',
-	standalone: true,
 	imports: [DestroyableCmpt],
 	template: `
 		<div id="testContainer"></div>

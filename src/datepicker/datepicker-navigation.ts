@@ -14,7 +14,6 @@ import { NgbDatepickerNavigationSelect } from './datepicker-navigation-select';
 
 @Component({
 	selector: 'ngb-datepicker-navigation',
-	standalone: true,
 	imports: [NgbDatepickerNavigationSelect],
 	changeDetection: ChangeDetectionStrategy.OnPush,
 	encapsulation: ViewEncapsulation.None,

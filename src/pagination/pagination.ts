@@ -152,7 +152,6 @@ export class NgbPaginationPages {
  */
 @Component({
 	selector: 'ngb-pagination',
-	standalone: true,
 	imports: [NgTemplateOutlet],
 	changeDetection: ChangeDetectionStrategy.OnPush,
 	host: {

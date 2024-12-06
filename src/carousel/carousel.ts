@@ -70,7 +70,6 @@ export class NgbSlide {
 @Component({
 	selector: 'ngb-carousel',
 	exportAs: 'ngbCarousel',
-	standalone: true,
 	imports: [NgTemplateOutlet],
 	changeDetection: ChangeDetectionStrategy.OnPush,
 	encapsulation: ViewEncapsulation.None,

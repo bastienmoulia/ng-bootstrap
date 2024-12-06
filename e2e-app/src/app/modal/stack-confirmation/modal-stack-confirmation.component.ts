@@ -2,7 +2,6 @@ import { Component, TemplateRef, ViewChild } from '@angular/core';
 import { NgbModal, NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
-	standalone: true,
 	imports: [NgbModule],
 	templateUrl: './modal-stack-confirmation.component.html',
 })
